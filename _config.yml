@@ -12,10 +12,10 @@ author: Lio
 
 navbar-links:
   About Me: "aboutme"
-  Daily Horoscopes: ""
-  Find horoscope: ""
-  Your horoscope destiny: ""
-  Contact me: ""
+  Daily Horoscopes: "dailyhoroscopes"
+  Find horoscope: "findhoroscopes"
+  Your horoscope destiny: "yourhoroscopedestiny"
+  Contact me: "contactme"
 
 ################
 # --- Logo --- #
