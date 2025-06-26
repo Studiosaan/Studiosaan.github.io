@@ -27,7 +27,6 @@ navbar-links:
 ################
 # --- Logo --- #
 ################
-
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
@@ -38,7 +37,7 @@ round-avatar: true
 social-network-links:
   email: "studiosaan33@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  instagram: deanat78
+  instagram: 
   youtube: "@daattali"
   discord: "invite_code" or "users/userid" or "invite/invite_code"
   
@@ -51,12 +50,12 @@ social-network-links:
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
-###########################
+###########################m
 # --- General options --- #
 ###########################
 
 # Select which social network share links to show in posts
-share-links-active:
+share-links-active: true
   instagram: true
   youtube: true
   discord: true
