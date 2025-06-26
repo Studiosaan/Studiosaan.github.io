@@ -27,28 +27,26 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
-social-network-links: @sa_an153
+social-network-links:
   email: "studiosaan33@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  instagram: 
   youtube: "@daattali"
-  discord: "invite_code" or "users/userid" or "invite/invite_code"
-  
+  discord: "invite_code"  # 실제 invite 코드로 수정 필요!
+
+#  instagram: deanat78
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
-#  instagram: deanat78
 #  telegram: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
-###########################m
+###########################
 # --- General options --- #
 ###########################
 
-# Select which social network share links to show in posts
-  share-links-active:
+share-links-active:
   instagram: true
   youtube: true
   discord: true
@@ -213,7 +211,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "South korea/Seoul"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -255,4 +253,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
