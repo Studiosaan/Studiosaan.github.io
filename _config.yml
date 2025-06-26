@@ -19,10 +19,10 @@ author: Lio
 
 navbar-links:
   About Me: "Studio Saan \n is fathom the world with the eyes of a lion"
-  Resources:
-    - Beautiful Jekyll: " "
-    - Learn markdown: " "
-  Contact me: " "
+  Daily Horoscopes: ""
+  Find horoscope: ""
+  Your horoscope destiny: ""
+  Contact me: ""
 
 ################
 # --- Logo --- #
@@ -36,7 +36,7 @@ round-avatar: true
 #####################################
 
 social-network-links:
-  email: "someone@example.com"
+  email: "studiosaan33@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   instagram: deanat78
   youtube: "@daattali"
