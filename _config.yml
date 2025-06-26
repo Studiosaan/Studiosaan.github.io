@@ -27,7 +27,7 @@ round-avatar: true
 # --- Footer social media links --- #
 #####################################
 
-social-network-links:
+social-network-links: @sa_an153
   email: "studiosaan33@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   instagram: 
