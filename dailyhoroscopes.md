@@ -1,2 +1,8 @@
+---
+layout: page
+title: Daily Horoscopes
+subtitle: .
+---
 
-good
+- gooood
+- gooood
