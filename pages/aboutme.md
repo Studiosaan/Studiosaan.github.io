@@ -50,7 +50,7 @@ Studio Saan은 당신이 **우주의 언어로 자신을 이해할 수 있도록
 
 ## ☀️ 함께 작업하고 싶은가요?
 
-- 📧 [contact@studiosaan.com](mailto:contact@studiosaan.com)
+- 📧 [studiosaan33@gmail.com](mailto:studiosaan33@gmail.com)
 - 🦁 Instagram, YouTube 준비 중
 
 ---
