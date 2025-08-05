@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  About Me
-permalink: /contactme/
+permalink: /aboutme/
 subtitle: 🦁 Studio Saan is fathom the world with the eyes of a lion.
 ---
 
