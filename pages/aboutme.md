@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About me
-subtitle: Studio Saan is fathom the world with the eyes of a lion.
+title:  About Me
+permalink: /contactme/
+subtitle: 🦁 Studio Saan is fathom the world with the eyes of a lion.
 ---
 
 ## 🪐 About Studio Saan
