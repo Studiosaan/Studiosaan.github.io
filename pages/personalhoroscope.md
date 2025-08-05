@@ -5,23 +5,34 @@ permalink: /personalhoroscope/
 subtitle: Discover your natal blueprint in a single page ✨
 ---
 
-<!-- ✨ Option B: 본문만 유지 (Beautiful Jekyll 레이아웃 사용) -->
+<!-- 본문만: Beautiful Jekyll 헤더·푸터를 그대로 사용합니다 -->
 
-<!-- 스타일은 페이지 안에서만 적용 → 필요 시 custom.scss 로 이동 가능 -->
 <style>
-  :root{--primary:#3f51b5;--bg:#fafafa;--bg-dark:#1c1c1e;--fg-dark:#e5e5e7;--border:#e0e0e0;--radius:10px}
-  body{background:var(--bg);color:#333;margin:0;padding-inline:1rem;line-height:1.6;font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif}
-  @media(prefers-color-scheme:dark){body{background:var(--bg-dark);color:var(--fg-dark)}.card,.result{background:#2a2a2d;border-color:#3a3a3d}input,button{color:var(--fg-dark)}}
+  /* ---------- Root Palette ---------- */
+  :root{
+    --primary:#3f51b5;
+    --border:#e0e0e0;
+    --radius:10px;
+  }
+  /* Let Beautiful‑Jekyll keep its own light/dark background. Only tune components */
   h2{text-align:center;font-weight:700;font-size:clamp(1.8rem,2.5vw + .5rem,2.4rem);margin:2rem 0 1rem}
   .mx-auto{margin-inline:auto}.w-full{width:100%}
+
+  /* Card */
   .card{max-width:480px;padding:1rem 1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.05)}
+
+  /* Form */
   form label{display:block;margin-bottom:.35rem;font-weight:600}
   form input{width:100%;padding:.6rem .8rem;margin-bottom:1.1rem;border:1px solid #cfcfcf;border-radius:var(--radius);font-size:.95rem}
   form button{width:100%;padding:.7rem;background:var(--primary);color:#fff;border:none;border-radius:var(--radius);font-size:.95rem;cursor:pointer;transition:background .2s ease}
-  form button:hover{background:#2f3fa0}
-  .result{max-width:700px;margin-block:2rem 3rem;padding:1.5rem 1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.06);animation:fadeIn .4s ease}
-  .chart-placeholder{width:100%;height:320px;display:flex;align-items:center;justify-content:center;background:#f2f2f7;color:#888;border-radius:var(--radius)}
+  form button:hover{background:#2d3aa0}
+
+  /* Result Box */
+  .result{max-width:700px;margin:2rem auto 3rem;padding:1.5rem 1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:#fff;box-shadow:0 4px 6px rgba(0,0,0,.06);animation:fadeIn .4s ease}
+  .chart-placeholder{width:100%;height:320px;display:flex;align-items:center;justify-content:center;background:#f5f5f5;color:#888;border-radius:var(--radius)}
   @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1}}
+
+  /* Responsive tweak */
   @media(min-width:768px){form.card{display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-end}form .field{flex:1 1 200px}form button{flex:1 1 150px;margin-bottom:0}}
 </style>
 
@@ -33,7 +44,7 @@ subtitle: Discover your natal blueprint in a single page ✨
     <input type="date" id="birthdate" name="birthdate" required />
   </div>
   <div class="field w-full">
-    <label for="birthtime">Birth time (24h HH:MM) — optional</label>
+    <label for="birthtime">Birth time (24h HH:MM) — optional</label>
     <input type="time" id="birthtime" name="birthtime" />
   </div>
   <button type="submit">Show my horoscope</button>
