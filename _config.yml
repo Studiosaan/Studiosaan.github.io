@@ -14,8 +14,7 @@ navbar-links:
   About Me: "aboutme"
   Astrology:
     - Daily Horoscopes: "dailyhoroscopes"
-    - Find horoscope: "findhoroscopes"
-    - Your horoscope destiny: "yourhoroscopedestiny"
+    - Personal Horoscope: "personalhoroscope"
   Contact me: "contactme"
 
 ################
