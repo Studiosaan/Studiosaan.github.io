@@ -21,7 +21,7 @@ navbar-links:
 ################
 avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
-logo_link: "/aboutme/"        # ← 로고 클릭 시 이동 경로
+logo_link: "/"        # ← 로고 클릭 시 이동 경로
 
 #####################################
 # --- Footer social media links --- #
