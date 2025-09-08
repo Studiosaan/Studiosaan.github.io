@@ -47,6 +47,8 @@ share-links-active:
 url-pretty: "MyWebsite.com"
 title-on-all-pages: true
 
+google_site_verification: ckejiakpT65_svdpAjoaXIyEPq3GH89EL-gHGyA_7Cs
+
 excerpt_length: 50
 feed_show_excerpt: true
 feed_show_tags: true
